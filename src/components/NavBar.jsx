@@ -57,10 +57,10 @@ const NavBar = () => {
           sticky ? ".nav-play" : ""
         } flex justify-between items-center max-container `}
       >
-        <div>
+        <div className="">
           <h1
             onClick={GoTop}
-            className="flex justify-start items-center text-[2rem] m-0 cursor-pointer font-Urbanist font-extrabold"
+            className="flex justify-start items-center text-[2rem] m-0 cursor-pointer font-Urbanist font-extrabold "
           >
             Selva.dev
           </h1>
