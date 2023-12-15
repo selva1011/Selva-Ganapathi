@@ -35,10 +35,12 @@ const hero = () => {
               Developer based in TamilNadu, India.
             </h3>
             <div className="flex text-apple-black2 gap-4">
-              <a href="https://github.com/selva1011">
+              <a href="https://github.com/selva1011" target="_blank">
                 <FaGithub size={30} className="hover:text-apple-orange" />
               </a>
-              <FaLinkedin size={30} className="hover:text-apple-blue2" />
+              <a href="https://www.linkedin.com/in/selva-ganapathi/" target="_blank">
+                <FaLinkedin size={30} className="hover:text-apple-blue2" />
+              </a>
             </div>
           </div>
           <div className="flex justify-center items-center h-[25rem] w-[25rem] max-sm:h-72 max-sm:w-72">

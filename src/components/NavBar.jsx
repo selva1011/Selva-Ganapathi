@@ -62,7 +62,7 @@ const NavBar = () => {
             onClick={GoTop}
             className="flex justify-start items-center text-[2rem] m-0 cursor-pointer font-Urbanist font-extrabold"
           >
-            Selva
+            Selva.dev
           </h1>
         </div>
         <ul className="flex-1 flex font-Sen font-semibold text-xl justify-end items-center gap-12 max-lg:hidden text-apple-black ">

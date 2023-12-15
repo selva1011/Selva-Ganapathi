@@ -29,14 +29,18 @@ const Portfolio1 = () => {
               </p>
             </div>
             <div className="flex gap-12 justify-center items-center mt-8 max-lg:mt-5 max-lg:gap-6">
+              <a href="https://github.com/selva1011/Beaver_shoes_landing_page" target="_blank">
               <div className="flex items-center gap-2 cursor-pointer hover:text-apple-blue2 text-apple-black2 max-lg:text-sm">
                 <FiGithub size={20} />
                 <p className="text-xl font-Sen font-bold max-lg:text-base">Code</p>
               </div>
+              </a>
+              <a href="https://beaver-shoes.vercel.app/" target="_blank">
               <div className="flex items-center gap-3 cursor-pointer hover:text-apple-orange text-apple-black2 max-lg:text-sm">
                 <p className="text-xl font-Sen font-bold max-lg:text-base">Live Demo</p>
                 <FiLink size={20} />
               </div>
+              </a>
             </div>
           </div>
         </div>

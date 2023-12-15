@@ -10,7 +10,9 @@ const Portfolio = () => {
           </div>
           <div className="flex flex-col items-center justify-center mt-2 pt-4  max-lg:mt-0 ">
             <div className="flex gap-6 items-center">
-              <h1 className="text-2xl font-Sen font-bold max-lg:text-lg">COINAGE 🪙</h1>
+              <h1 className="text-2xl font-Sen font-bold max-lg:text-lg">
+                COINAGE 🪙
+              </h1>
               <p className="font-Sen text-xl font-medium max-lg:text-sm">
                 {"( November 2023 )"}
               </p>
@@ -29,14 +31,25 @@ const Portfolio = () => {
               </p>
             </div>
             <div className="flex gap-12 justify-center items-center mt-8 max-lg:mt-5 max-lg:gap-6">
-              <div className="flex items-center gap-2 cursor-pointer hover:text-apple-blue2 text-apple-black2 max-lg:text-sm ">
-                <FiGithub size={20} />
-                <p className="text-xl font-Sen font-bold max-lg:text-base">Code</p>
-              </div>
-              <div className="flex items-center gap-3 cursor-pointer hover:text-apple-orange text-apple-black2 max-lg:text-sm">
-                <p className="text-xl font-Sen font-bold max-lg:text-base">Live Demo</p>
-                <FiLink size={20}/>
-              </div>
+              <a
+                href="https://github.com/selva1011/Coinage-Crypto"
+                target="_blank"
+              >
+                <div className="flex items-center gap-2 cursor-pointer hover:text-apple-blue2 text-apple-black2 max-lg:text-sm ">
+                  <FiGithub size={20} />
+                  <p className="text-xl font-Sen font-bold max-lg:text-base">
+                    Code
+                  </p>
+                </div>
+              </a>
+              <a href="https://coinage-crypto.vercel.app/" target="_blank">
+                <div className="flex items-center gap-3 cursor-pointer hover:text-apple-orange text-apple-black2 max-lg:text-sm">
+                  <p className="text-xl font-Sen font-bold max-lg:text-base">
+                    Live Demo
+                  </p>
+                  <FiLink size={20} />
+                </div>
+              </a>
             </div>
           </div>
         </div>

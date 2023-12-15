@@ -7,11 +7,17 @@ const Footer = () => {
         <img src={footer_sign} alt="sign" className="h-[65px] w-[108px]" />
         <p className="font-Sen text-base text-apple-black2 font-normal">
           This Website is built with{" "}
-          <a href="https://react.dev/" className="underline font-semibold text-apple-orange">
+          <a
+            href="https://react.dev/"
+            className="underline font-semibold text-apple-orange"
+          >
             React
           </a>{" "}
           and hosted on{" "}
-          <a href="https://vercel.com/" className="underline font-semibold text-apple-orange">
+          <a
+            href="https://vercel.com/"
+            className="underline font-semibold text-apple-orange"
+          >
             vercel
           </a>
           .
@@ -19,11 +25,12 @@ const Footer = () => {
       </div>
       <div className="flex flex-col pb-5 px-8 gap-2">
         <div className="flex text-apple-black2 gap-4 justify-end py-2">
-          <a href="https://github.com/selva1011">
+          <a href="https://github.com/selva1011" target="_blank">
             <FaGithub size={25} className="hover:text-apple-orange" />
           </a>
-
-          <FaLinkedin size={25} className="hover:text-apple-blue2" />
+          <a href="https://www.linkedin.com/in/selva-ganapathi/" target="_blank">
+            <FaLinkedin size={25} className="hover:text-apple-blue2" />
+          </a>
         </div>
         <h3 className=" font-Sen text-lg text-apple-orange">
           © Selva Ganapathi 2023–Today.{" "}
