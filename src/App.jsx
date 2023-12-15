@@ -4,7 +4,7 @@ import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function App() {
   return (
-    <main className="relative debug-screens bg-apple-white">
+    <main className="relative bg-apple-white">
       <SpeedInsights />
       <NavBar />
       <section>
