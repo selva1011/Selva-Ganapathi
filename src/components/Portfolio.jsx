@@ -5,7 +5,7 @@ const Portfolio = () => {
     <div>
       <div className="flex w-[584px] max-lg:w-[360px] bg-white p-5 rounded-3xl justify-between items-center relative drop-shadow-xl h-auto">
         <div className="flex flex-col items-center justify-center">
-          <div className="rounded-2xl bg-cover h-80 w-[34rem] max-lg:w-80 max-lg:h-72 bg-hero-pattern hover:bg-bottom	 ease-in-out transition-transform	 duration-1000 screen drop-shadow-md">
+          <div className="rounded-2xl bg-cover h-80 w-[34rem] max-lg:w-80 max-lg:h-72 bg-hero-pattern hover:bg-bottom	 ease-in-out transition-transform	 duration-1000 screen drop-shadow-md 	">
             {/* <img src={hero} alt="hero" style={{height: "100%", width: "100%", objectFit: "contain", transform: "translateY(0%)", transition: "transform 10s ease-in-out 0s"}}/> */}
           </div>
           <div className="flex flex-col items-center justify-center mt-2 pt-4  max-lg:mt-0 ">

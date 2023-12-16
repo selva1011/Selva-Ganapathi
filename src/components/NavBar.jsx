@@ -60,7 +60,7 @@ const NavBar = () => {
         <div className="">
           <h1
             onClick={GoTop}
-            className="flex justify-start items-center text-[2rem] m-0 cursor-pointer font-Urbanist font-extrabold "
+            className="flex justify-start items-center text-[2rem] m-0 cursor-pointer font-Urbanist font-extrabold max-sm:text-[1.8rem] max-sm:py-2 "
           >
             Selva.dev
           </h1>
@@ -76,7 +76,7 @@ const NavBar = () => {
           ))}
         </ul>
         <div>{phone && Mobile_nav}</div>
-        <button className="hidden max-lg:block h-[25] w-[25]" onClick={opener}>
+        <button className="hidden max-lg:block h-[25] w-[25] justify-center items-center" onClick={opener}>
           {phone ? <RiCloseLine size={30} /> : <RiMenuLine size={30} />}
         </button>
       </nav>
