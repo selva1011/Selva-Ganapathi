@@ -1,5 +1,5 @@
 import { js, reactJs, tailwind, html } from "../assets/icons";
-import { selvaCircle, profilepic4, anim } from "../assets/images";
+import { anim } from "../assets/images";
 const about = () => {
   return (
     <section
