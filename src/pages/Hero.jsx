@@ -1,13 +1,6 @@
 import React from "react";
 import { DockBar } from "../components";
-import {
-  selvaCircle,
-  profilepic,
-  profilepic1,
-  profilepic2,
-  profilepic3,
-  profilepic4,
-} from "../assets/images";
+import { profilepic4 } from "../assets/images";
 import { FaLinkedin, FaGithub } from "react-icons/fa6";
 
 const hero = () => {
@@ -38,7 +31,10 @@ const hero = () => {
               <a href="https://github.com/selva1011" target="_blank">
                 <FaGithub size={30} className="hover:text-apple-orange" />
               </a>
-              <a href="https://www.linkedin.com/in/selva-ganapathi/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/selva-ganapathi/"
+                target="_blank"
+              >
                 <FaLinkedin size={30} className="hover:text-apple-blue2" />
               </a>
             </div>
