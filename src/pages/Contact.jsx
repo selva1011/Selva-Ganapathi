@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="padding-x min-h-screen w-full relative bg-white"
+      className="padding-x relative bg-white"
     >
-      <div className="flex flex-col relative top-36  justify-center items-center gap-24 max-lg:gap-8">
+      <div className="flex flex-col relative top-36  justify-center items-center gap-24 max-lg:gap-8 max-w-[1440px] mx-auto">
         <div className="flex flex-col justify-center items-start top-32">
           <h1 className="text-4xl font-Urbanist font-extrabold text-apple-blue2 max-sm:text-2xl">
             Contact

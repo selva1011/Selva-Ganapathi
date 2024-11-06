@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa6";
 
 const hero = () => {
   return (
-    <section id="home" className="padding-x min-h-screen w-full relative">
+    <section id="home" className="padding-x max-w-[1440px] mx-auto relative">
       <div className="flex flex-col justify-center items-center gap-40">
         <div className="flex max-lg:flex-col-reverse relative top-24 justify-center items-center gap-16 max-lg:gap-8">
           <div className="flex flex-col w-auto ">

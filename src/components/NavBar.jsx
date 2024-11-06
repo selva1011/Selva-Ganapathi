@@ -55,7 +55,7 @@ const NavBar = () => {
       <nav
         className={`${
           sticky ? ".nav-play" : ""
-        } flex justify-between items-center max-container `}
+        } flex justify-between items-center max-container max-w-[1440px] mx-auto`}
       >
         <div className="">
           <h1

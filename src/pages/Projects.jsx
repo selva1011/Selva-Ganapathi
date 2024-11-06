@@ -2,7 +2,7 @@ import { Portfolio, Portfolio1 } from "../components";
 
 const Projects = () => {
   return (
-        <section id="projects" className="padding-x  w-full min-h-screen relative my-24 max-lg:my-8">
+        <section id="projects" className="padding-x max-w-[1440px] mx-auto relative my-24 max-lg:my-8">
       <div className="flex flex-col justify-center top-24 relative max-md:top-20 h-auto">
         <div className="flex flex-col justify-start items-start text-left">
           <h1 className="text-2xl text-apple-blue2 font-bold font-Urbanist max-md:xl">
